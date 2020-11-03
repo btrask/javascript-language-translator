@@ -4,6 +4,8 @@ javascript:(function(){/*JavaScript Language Translator*/
 Natural language popularity: https://en.wikipedia.org/w/index.php?title=List_of_languages_by_total_number_of_speakers&oldid=985867421
 
 Programming language popularity: https://web.archive.org/web/20201028024557/https://www.tiobe.com/tiobe-index/
+
+Also: https://web.archive.org/web/20201022204512/https://www.visualcapitalist.com/100-most-spoken-languages/
 */
 
 var langMap = {
@@ -18,7 +20,7 @@ var langMap = {
 "Arabic": /\bVisual Basic\b/g,
 "Bengali": /\bJava[Ss]cript\b/g, ".bn": /\.js\b/g,
 "Russian": /\bPHP\b/g,
-"in Portuguese": /in R/g,
+"in Portuguese": /\bin R\b/g,
 "Indonesian": /\bSQL\b/g,
 
 /*10*/
